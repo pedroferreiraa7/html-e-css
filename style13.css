@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Bebas Neue', 'new times roman', serif;
+}
+
+a{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: skyblue;
+    
+}
+/* active significa que quando eu clicar no site, ele vai fica com a cor que eu escolhi*/
+
+a::after{
+    content:" [por exemplo]";
+    color: red;
+    text-decoration:none;
+    font-weight: normal;
+
+    /* o after tu pode usa depois de alguma frase ou link*/
+}
+a::before{
+    content: " [Por exemplo]";
+    color: yellow;
+    /* before ja diz antes, entao antes do link ou frase tu pode escreve alguma coisa*/
+
+}
+
+.especial::before{
+    color: red;
+    background-color: blue;
+    content: "e iSSo dai";
+}
+
+.especial::after{
+    color: yellow;
+    background-color: black;
+    content: "Nao deu";
+}
+
+/* 
+# = id
+. = class
+: = pseudo - class
+:: pseudo - element
+> = children
+*/
+
+

@@ -1,0 +1,19 @@
+div:hover{
+    color: springgreen;
+}
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: red;
+    background-color: seashell;
+}
+
+
+ /* quando bota o > do lado da div, e uma tag por exexmplo um "p" significa tudo que estiver dentro da div, se tu quiser esconder ou faze outra coisa pode fazer*/
+
+ /* e depois que eu fize isso é eu quere que aparece dnv, eu faça*/
+
+/* depois de faze o texto sumi, e querer que apareça dnv usa a  tag div:hover > p{ qualquer coisa que tu quiser bota}*/

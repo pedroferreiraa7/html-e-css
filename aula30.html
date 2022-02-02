@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="curso em video.png" type="image/x-icon">
+    <title>Goruping Tags com box-shadow</title>
+    <style>
+        /* essas são as groputags semanticas*/
+
+        /*Header significa cabeçalho, tu bota o conteudo inicial nele*/
+
+        /* nav significa a nevagação , e aonde tu vai bota os links para a navegação*/
+
+        /* main e onde tu bota o conteudo principal, tu criaa o site apartir dele*/
+        
+        /* footer e o rodape, caso tu queira deixar o nome da empresa ou alguma coisa assim*/
+
+        /* div e uma caixa do tipo, box-level*/
+
+        /* span e uma caixa do tipo inline-level*/
+
+        /* section significa sessao, normalmente tu pode bota um id nela pra identificação da sessão*/
+
+        /* article é outra tag de noticias */
+
+        /* aside, e um conteudo periferico ao artigo, releativo ao artigo, por exemplo tu pode bota o nome do autor da obra ou algo assim*/
+        
+        header{
+            margin: 10px;
+            background-color: white;
+
+        }
+        body{
+            background-color: gray;
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: white;
+            color: black;
+            text-align: center;
+            box-shadow: 1px 1px 40px black;
+
+            /*quando usar a box-shadow vai no teu site e aperda crtl, shift + i, dai vai nos estilos e ali tu pode arruma do teu jeito*/
+
+            /* a primeira configuração e o deslocamento horizontal 2° deslocamento vertical, depois tem blair, spreed, cor, tem o in7*/
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        footer{
+            background-color: rgb(3, 3, 3);
+            text-align: center;
+            padding: 5px;
+            color: white;
+        }
+        article > aside{
+            color: white;
+        }
+        aside > p{
+            background-color: hotpink;
+        }
+        .diferente{
+            background-color: pink;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            margin-right: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        nav{
+            background-color:hotpink ;
+
+        }
+        section#assuntos{
+            background-color: red;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+       <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="p">Link</a>
+            <a href="p">Link</a>
+            <a href="p">Link</a>
+            <a href="p">Link</a>
+            <a href="p">Link</a>
+        </nav>
+       </header>
+       <main>
+        <section id="assuntos">
+            <p>Espotes Nfl e Nba</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis architecto maxime deleniti at inventore nulla? Sit animi cum omnis odio ducimus reiciendis et, eum beatae nisi porro ad excepturi fuga.</p>
+                <aside>
+                    <p>Artigo escrito por Pedro Ferreira</p>
+                </aside>
+            </article>
+
+            <article class="diferente">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsum modi sit rem, cupiditate quis iusto dolorem at reiciendis alias deserunt quae, aperiam rerum consectetur aliquid eveniet! Minus, porro culpa?</p>
+            </article> 
+    </section>
+    </main>
+       <footer>
+           <p>@PedroemVideo</p>
+       </footer>
+</body>
+</html>

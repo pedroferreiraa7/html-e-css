@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="curso em video.png" type="image/x-icon">
+    <link rel="stylesheet" href="style14.css">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+           background-color: lightgreen; 
+           width: 300px;
+           height: 300px;
+           
+           border-width: 10px;
+           border-style: solid;
+           border-color: blueviolet;
+
+           border: 10px solid blueviolet;
+           /* esse e o shorthand, um jeito mais facil, resumido*/
+
+           padding-top: 10px;
+           padding-right: 10px;
+           padding-bottom:10px;
+           padding-left: 10px;
+           padding: 10px 10px 10px 10px;
+
+           /* */
+
+           /*sempre na ordem que esta o padding do guanabara.*/
+
+           /* como se fosse um relogio, em cima, direita, em baixo, esquerda.*/
+           
+           margin-top: 20px;
+           margin-right: 100px;
+           margin-bottom: 40px;
+           margin-left: 80px;
+
+           margin: 20px auto 40px auto;
+           /* dai caso os numeros serem diferentes faz dessse jeito*/
+
+           outline-width: 5px;
+           outline-style: dashed;
+           outline-color: yellow;
+
+           outline: 5px dashed yellow;
+          
+        }
+
+        /*outline-width ou igual os exemplos acima, serve para deixar as bordas pontilhadas ser pontilhadas*/
+
+        /* pra deixa o h1 ou outra coisa no meio usa margin:auto;*/
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }  
+
+        /* o display:block, deixa a linha do teste sublinhado inteiro vazia, deixa so o texto*/
+        p{
+            display: block;
+        }
+        p#diferente{
+            background-color: red;
+        }
+        .teste{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas box-level</h1>
+    <p>Paragrafos tambem são exemplos de box-level, mas os  <a href="p">links são exemplos de caixas inline-level. </a>vamos ver como tudo isso funciona.</p>
+    <p id="diferente">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim autem magnam maxime nisi tempore suscipit commodi blanditiis nesciunt, reprehenderit voluptates ipsum alias corporis pariatur aspernatur, recusandae, exercitationem quibusdam illum facere?</p>
+
+    <p class="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corporis repellat nisi possimus porro perferendis ipsum, dolorem voluptate quo temporibus ullam sit qui vero quasi provident voluptatum ut saepe consectetur.</p>
+
+</body>
+</html>

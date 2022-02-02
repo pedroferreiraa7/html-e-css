@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*medidas absolutas
+    cm ,mm, in, px, pt, pc
+
+    medidas relativas
+    em, ex, rem, vx, vh, %
+    16px geralmente e 1em
+    usa mais px e em
+    */
+}
+h1{
+    /*
+font-style: italic;
+font-weight: bolder;
+font-size: 3em; 
+font-family: 'work sans', sans-serif; 
+text-decoration: underline;
+*/
+
+    /* inves de faze tudo isso diminui com o shorthand font, que e assim
+    - font-style -> font-weight -> font-size -> font-family */
+    font: italic bolder 3em 'work sans', sans-serif;
+}
+h2{
+    font: arial bolder 2em 'work sans';
+}
+
+h3{
+    font: italic bold 2em 'work sans', sans-serif;
+}

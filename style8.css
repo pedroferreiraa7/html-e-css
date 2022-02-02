@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*
+em HTML é id e em CSS é #
+tudo em que HTML e class em CSS é .
+*/
+body{
+    background-color: rgb(204, 223, 175);
+}
+h1{
+  color: snow;
+}
+h2{
+    color: rgb(128, 33, 33);
+}
+
+h1#principal{
+    color: black;
+    text-align: center;
+   
+}
+/* resumindo pode usar com o h1 na frente ou #onomedatag{},
+direto*/
+
+/* o class pode ser em varias, tipo pode usa a tag "pedro" em varias mas a id e unica*/
+.pero{
+    color: red;
+    background-color: turquoise;
+}
+
+/* se quiser pegar um paragrafo e botar dentro de uma dessas classes, usa a tag span*/

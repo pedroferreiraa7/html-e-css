@@ -1,0 +1,21 @@
+div:hover{
+    background-color: red;
+}
+div > p{
+    background-color: yellow;
+    display: none;
+}
+div:hover > p{
+  display: block;
+}
+
+.pedro{
+    background-color: pink;
+}
+
+.yuri{
+    background-color: royalblue;
+}
+.fe{
+    background-color: seagreen;
+}

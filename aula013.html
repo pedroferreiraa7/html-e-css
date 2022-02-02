@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="curso em video.png" type="image/x-icon">
+    <title>Midias em HTML </title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente> aumente e diminua o tamanho do seu navegador</p>
+<picture>
+    <!--esse eu nao consegui, eu fiz certo mas nao consigo deixar a tela pequena, media e grande.-->
+    <source media="(max-width: 750px)" srcset="imagem html e css/foto-p.png" type="image/png">
+
+    <source media="(max-width: 1050px)" srcset="imagem html e css/foto-m.png" type="image/png">
+    <img src="imagem html e css/foto-p.png" alt="fotop">
+</picture>
+<h1>Reproduzindo Àudio</h1>
+<p>vamos aprender a reproduzir audios em html5</p>
+<audio preload="metadata" controls loop>
+    <source src="Midia js/guanacast-33.mp3" type="audio/mpeg">
+<source src="Midia js/guanacast-33.ogg" type="audio/ogg">
+<source src="Midia js/guanacast-33.wav" type="audio/wav">
+<p>infelizmente o computador nao suporta <a href="Midia js/
+guanacast-33.mp3">clique aqui</a> para baixar o arquivo mp3</p>
+
+</audio>
+<!--as opções que tem e de controls, loop,autoplay preload="metadata, none,auto"-->
+<!--não usa wav e muito pesado e vai acaba deixando o site lento então não usa esses sao para audio pra video e diferente-->
+</audio> 
+</body>
+</html>

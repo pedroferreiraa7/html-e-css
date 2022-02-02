@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+/* nesse precisa ir no google fonts e escolhe a fonte, em select this style, bota ambed, import pega o style*/
+
+/* é pra usa essa fonte pega o font family e bota no que tu quiser, por exemplo o h1{}*/
+@font-face {
+    font-family:'spanish';
+    src: url('sexy_spanish_woman/SEXY_SPANISH.TTF') format('truetype'), url('fabella_flower/fabella-flower.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* esse ja esta excluido, mais deixei pra ter de exemplo*/
+
+    /* o font face serve pra botar a fonte e, se pega a fonte botando o font-family*/
+}
+@font-face {
+    font-family:'fabella_flower';
+    src: url('fabella_flower/fabella-flower.ttf') format('truetype'), url('fabella_flower/fabella-flower.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /*sempre bota ttf e otf, pra ser compativel com qualquer computador!!!*/ 
+}
+/* 
+tipos de fontes()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat(apple advenced typography)
+- svg
+*/
+@font-face {
+    font-family: 'campus';
+    src: url('campus/CAMPUS\ PERSONAL\ USE.ttf') format('truetype'), url('campus/CAMPUS\ PERSONAL\ USE.otf') format('opentype');
+}
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: 'Redacted Script', cursive;
+}
+h2{
+ font-family: 'spanish', times, serif;
+ font-size: 2em;
+ /*nao existe mais, mas vai ficar de exemplo!!*/
+}
+h3{
+    font-family: 'fabella_flower', times, serif;
+    font-size: 2em;
+}
+h4{
+    font-family: 'campus', times, serif;
+    font-weight: normal;
+    font-size: normal;
+}

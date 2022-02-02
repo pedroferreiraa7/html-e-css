@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        @font-face {
+            font-family: "fabella";
+            src: url("fabella_flower/fabella-flower.ttf");
+        }
+
+        :root{
+            --font-minha: "fabella";
+            --cor0: pink;
+        }
+        p{
+            color: var(--cor0);
+            font-family: var(--font-minha);
+        }
+
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex doloremque et officiis corporis facilis saepe perspiciatis. Delectus accusantium molestiae atque, blanditiis cupiditate quam amet velit magni, quibusdam cum eveniet dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quam cumque blanditiis, qui eum itaque quod exercitationem maiores ratione ex pariatur, beatae modi aliquid quaerat tenetur aperiam. Sapiente, voluptatum obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente enim deleniti, hic ratione alias. Magni nostrum adipisci hic reprehenderit exercitationem suscipit minima, quia, cumque distinctio cum enim voluptatem illum.</p>
+        <picture>
+            <source media="(min-width:300px )" srcset="imagem html-css/foto-p.png">
+            <img src="imagem html e css/foto-m.png" alt="foto-media">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illo voluptatum qui? Culpa quam aspernatur, iste nesciunt reprehenderit numquam, ullam placeat, voluptatibus amet voluptatum distinctio ducimus! Molestias amet quam possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur exercitationem quidem iure delectus officia excepturi, ex necessitatibus ducimus, similique placeat beatae ut sequi harum et voluptate dolorem voluptatum vel dolor!</p>
+    </main>
+</body>
+</html>

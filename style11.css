@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+body{
+    font-family: 'Exo', sans-serif;
+}
+a{ 
+    color: red ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(255, 0, 0);
+}
+a:hover{
+    color: black;
+    text-decoration: underline;     
+}
+a:active{
+    color: yellow;
+}
+
+/* a tag visited, e usada pra quaando tu que troca a cor de um link que ja foi acessado*/
+
+/* a tag hover é pra quando tu que passa em uma linha e mudificar alguma coisa nela*/
+
+/* a tag a:active se usa quando tu vai clica no link que tu botou, e que que ele fica de uma cor diferente, ou outra forma*/
+
+/* esse e o pseudoclasses, usa :*/
+
+/* no pseudo elemento usa :: after ou qualquer outro*/
+
+a::after{
+    content: " [link]";
+    text-decoration: none;
+    font-weight: normal;
+    color: brown;
+}
+
+a::before{
+    content: ' [extra link] ';
+}
+
+.espe::before{
+    content: '😀 ';
+}
+.espe::after{
+    content: ' seta';
+}
+
+.espe{
+    background-color: blue;
+}
+
+/* Seletores Personalizados
+# = id
+. = class
+: = Pseudo - class
+:: = Pseudo - element
+> = children
+*/
+

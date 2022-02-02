@@ -1,0 +1,6 @@
+*{ /*configurações globais da css*/ 
+height: 100%;
+}
+body{
+background-image: linear-gradient(to right,#BA317F,#8E48C2,#BA3382,#DB1844,#F93302 40%);
+}

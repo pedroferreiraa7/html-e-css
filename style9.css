@@ -1,0 +1,25 @@
+@charset  "UTF-8";
+div{
+    display: inline-block;
+    background-color: gray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+div:hover{
+    background-color: red;
+    text-align: left;
+}
+
+p:hover{
+    background-color: red;
+}
+/* height é altuara
+width é largura*/
+
+/* display: inline-block deixa um do lado do outro
+sem ele fica um embaixo do outro*/
+
+/* se tu quiser passar o malse em cima e mudar de cor ou alguma outra coisa, usa a tag hover*/

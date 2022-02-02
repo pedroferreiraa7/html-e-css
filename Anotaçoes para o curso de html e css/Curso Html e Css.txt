@@ -1,0 +1,256 @@
+		CURSO HTML E CSS
+HTML E CSS
+Estrutura basica de documentpo HTML
+<!DOCTYPE html>
+<html lang="pt-b">
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+<tittle>document </tittle>
+</head>
+<body>
+<h1>ola,mundo!/h1>
+</body>
+</html>
+
+ou aperta o ! e da um enter
+
+se eu quiser deixar o (<p>/<p>)no paragrafo ou em qualquer lugar eu uso &lt;p&gt;
+e igual tambem para o <br>
+
+se quiser deixar um traço em baixo do h1 ou em qualquer lugar usa a tag HR
+
+a tag abbr deixa tu dar um significado paraa palavra dai tu usa <abbr title=" o significado da palavra">HTML</abbr> 
+
+
+quando quiser botar emoji 
+coloca &#x1F9123 ou o numero que estiver no emoji
+o nome do site e emojipedia 
+
+unsplash site de fotos gratis
+
+wikimedia commons
+
+
+png e sempre quando quiser usar o fundo transparente com a qualidade um pouco melhor.
+
+jpg e quando quiser usar imagens e a compractação e algo muito importante
+
+favico.ico site para desenhar logos ou o que quiser
+
+icon archive site para fotos
+
+favicon.io
+
+estrutura da URL: www.github.com/gustavoguanabara
+sub- dominio(www), dominio(github), tld(.com), caminho(gustavoguanabara).
+
+se quiser deixar o nome em negrito escreva <strong>e o que tu quiser</strong>
+
+se quiser deixar como um endereço usa a tag <address>rua aracaju, 885 - rs</address>
+
+um site pra ficar atualizado sobre html5, html5 absolet tags - 13 Obsolet features - html5 - w3c
+
+se quiser deixar a frase em negrito usa <strong>qualquer coisa</strong>
+
+e se quiser deixar em enfase usa a tag ( em )
+
+é, eu podia usar a mesma coisa e aperta o, p e deixar a frase em paragrafo
+
+mas se quiser deixar a frase em paragrafo ou em qualquer outra tag, sublinha a palavra e aperta CTRL + SHIFT + P, aperta enter e depois escreve (P) de paragrafo. ou qualquer outra tag.
+
+a tag code serve para deixar a frase mono espassada
+
+E a recomendação que eu preciso segui e se e forma? (CSS) mas se for 
+
+mas se for sentido? ( HTML )
+
+se eu quiser marca um texto eu uso a tag <mark>TEXTO</mark>
+
+é se eu quiser usar outra cor com a tag
+mark eu uso <mark style ="background-color: blue ;"></mark> mas so quando eu quiser marca apenas um mark, mas se eu quiser marcar todos os marks eu crio style
+ mark{
+background-color: blue 
+style
+}
+ 
+é se eu quiser deixar o texto deletado eu uso a  tag <del>TEXTO DELETADO</del>
+
+e se eu quiser deixar o texto sublinhado eu uso a tag <ins>texto sublinhado</ins>
+
+se eu quiser deixar um texto pequeno eu uso a tag <small>texto</small>
+
+para poder deixar o numero ou o texto elevado eu uso a tag <sup>numero ou texto</sup>
+
+mas se eu quiser deixar o numero ou texto para baixo eu uso a tag <sub>Texto ou numero</sub>
+
+pra deixar o texto todo num canto segura a tecla SHIFT é aperta a tecla TAB
+
+e pra deixa o codigo todo bonito segura a tecla CTRL é aperta G
+
+quando for uma sitação usa a tag Q
+
+usando a tag BLOCKQUOTE, é com ela tu pode criar dentro do blockquote um parametro chamado CITE, e depois tu copia o endereço do site que tu pegou a frase . é para mantes os diteitos
+
+com a tag ABBR  um posso dizer o que eu sublinhei significa
+
+a tag BDOR é alinha o texto para a direita 
+
+com a tag PRE eu deixo o meu codigo com uma cara mais bonita, fica mais pre formatado
+
+para usar a tag listas ordenadas usa <ol></ol>
+dentro dela usa a tag  <li></li> que significa LISTA DE ITEM
+é dentro do ol pode usar type= "1" ou outra coisa
+tambem pode usar start que usando essa tag o numero inicia apratir do numero que tu botar no start dentro do ol.
+
+é na listas nao ordenadas usa a tag <ul></ul>
+e dentro dela a tag <li></li>
+e no lado da ul usa o type so para tres coisas dics, circle, square
+
+pra quando quiser transformar uma ul para ol ou qualquer outra coisa, aperta aonde tu que, segura ALT, vai apertando em cada ol ou ul que tu quiser
+
+listas de definiçoes e representada pepla tag <dl></dl>
+e dentro dela o termo com a tag DT que significa TERMO,
+e descrição com a tag DD
+
+pra bota um link usa a tag <a href="https://gustavoguanabara.github.io/"> </a>
+
+e pra pessoa nao esquecer do teu site usa, <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositorio no github </a>
+
+_ significa ANDERLINE
+
+um site pra poder ver a lista de midia types e pra poder achar as palavras mais rapido digita CTRL + F
+
+pra poder baixar um pdf ou alguma outra coisa faz isso <a href="imagem html e css/meulivro (1).pdf" download="meulivro.pdf" type="application/pdf">
+
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+
+um bom site pra deixar o video menor, e HandBreak
+
+os formatos de video: mp4, m4v, webm, ogv
+
+pra quando eu quise fazer as imagens ficarem no tamanho da tela da pessoa , eu faço <picture>
+source media type
+</picture>
+dai eu deixo no tamanho que eu quiser, na imagem.
+
+se quise faze um video, cria com a tag video do que nesse usa source src.
+
+quando eu ver no CSS um  @charset " UTF-8";, significa que é uma regra que significa que ele vai ser compativel com o UTF-8 , não e obrigatorio.
+
+é se eu quiser usar o mesmo css em outro lugar faz a regra do charset é faz o link é bota o nome do href=  " é o nome que tu botou"
+
+
+
+Cores primarias dentro do circulo cromatico são: amarelo, vermelho, azul
+que forma um triangulo equilatero
+
+cores secundarias são violeta, laranja, verde que forma um triangulo de cabeça pra baixo
+
+cores terciarias são todas as outras que sao misturas das cores primarias e secundarias
+toda a cor dita terciaria esta entre uma cor secundaria e primaria entao sempre bota primeiro o nome dacor primaria e depois o da secundaria as cores terciarias são 
+vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdiado, amarelo-esverdeado, amarelo alaranjado no circulo cromatico
+
+
+temperatura de cores tu divide entre o amarelo e o amarelo esverdiado divide entre o violeta e o vermelho aroxeado e tudo que esta no lado esquerdo são as cores frias e no lado direito as cores quentes
+
+cores complementares é simplesmete bota uma linha reta entre a cor que eu quiser 
+
+cores análogas é so pega as cores que estao no lado uma da outra, elas não tem contraste muito grande mais sao percepitiveis uma com a outra 
+ 
+cores analogas e uma complementar e so pega as vizinhas da cor principal e faze uma linha reta pra pega a complementar
+
+cores analogas relacionadas é so escolher duas é pular uma
+
+cores intercaladas é so escolher 1, pula pega esse, pula mais um pega o outro 
+
+cores triadicas escolhe uma cor pula 3 e pega essa
+
+cores em quadrado, que e igual a triadicas mas e so pular 2 é faz isso em sequencia
+
+cores tetradicas, tu escolhe 1 faz uma linha reta, escolhe outra e faz outra linha reta e junta essas 4 cores 
+
+monocromia, modifica duas caracteristicas a saturação e o brilho utilizando hsl por exemplo, entao modificando mais 3 vezes a saturação e luminosidade tu tem o resutado no video harmonia de cores curso em video no minuto 23:36
+
+uma ferramenta boa pra pegar dicas de cores e o adobecolor
+
+outra boa e o paletton
+
+outra coolors
+
+o que e dominio e hospedagem 
+
+dominio pra resumir e so o nome, faz apenas a ligação do seu site para que ele seja acessado atraves de uma palavra ou sequencia de caracteres
+
+hospedagem é onde tu tu guarda o teu site, e como um espaço online reservado para seu site na internet, é por meio dela que voce armazena os arquivos (o seu site) que mantem seu site no ar
+
+se quiser fazer um degrade na pagina usa background-image:linear-gradient(to right);ou se quiser usa 45deg ou ó to right se quiser pra direita né 
+
+o seletor global da CSS é *{
+height: 100%
+}
+não esquece do height se nao não dá certo
+
+pra baixo e a mesma coisa so que bottom
+
+a minha familia de texto tem que ter text-decoracion,font-weight, font-style 
+
+um site pra pode pega pega fontes e o google fonts
+
+um site bom pra pega fontes diferentes e o dafont.com, com esse site tu so pode fonte de uma imagem.
+
+/* inves de faze tudo isso diminui com o shorthand font, que e assim
+- font-style -> font-weight -> font-size -> font-family */
+font: italic bolder 3em 'work sans', sans-serif;
+
+se quiser deixar aquele espaço, igual na redação usa text-indent: 20px; o px e o tamanho que tu quiser
+
+se quiser por exemplo, deixar o h1 diferente do outro usa no html o <h1 id="principal">Criando site em html e css</h1>
+<h1>Aprendendo html</h1>
+
+e no css tu faz, h1#principal{
+}
+o id tu pode botar qualquer coisa, não precisa ser "principal"
+
+ou se quiser bota, #principal direto pode, e so botar é não precisa ter o h1 necessariamente
+
+o class pode ser em varias, tipo pode usa a tag "pedro" em varias mas a id e unica
+
+/* quando bota o > do lado da div, e uma tag por exexmplo um "p" significa tudo que estiver dentro da div, se tu quiser esconder ou faze outra coisa pode fazer*/
+
+ /* e depois que eu fize isso é eu quere que aparece dnv, eu faça*/
+
+/* depois de faze o texto sumi, e querer que apareça dnv usa a  tag div:hover > p{ qualquer coisa que tu quiser bota}*/
+
+pseudoclasses é 1 vez, dentro desse tu usa a:hover{
+} por exemplo 
+
+pseudoelementos ::, é dentro desse usa a::after{ content: "e bota qualquer coisa" ;
+} por exemplo 
+
+é dentro a:: after{
+tu pode botar, color:red;} é varias outras coisas
+
+text-shadow serve pra deixar uma sombrinha debaixo do h1 ou qualquer coisa que tu quiser
+
+text-indent serve para deixar um em espaço antes de começar o texto, ou qualquer coisa
+
+line-height é a altura da linha, espaçamento entre linhas
+
+list-style-position: inside ou outside;
+
+columns: 2; se tu quiser mais colunas tu pode bota qualquer numero 
+
+list-style-type: '\2714\00A0'; é usado para bota algum sinal antes do teu paragrafo ou alguma outra coisa, é tem varias variaveis de numeros
+
+margin negativa pode se usada somente em cima, direita, esquerda, em baixo ñ pode e sempre 0
+
+se eu quiser botar uma corrente depois ou antes do link eu posso usar uma class, vai no estilo bota a.nomedocoiso::after{
+content: bota o codigo do simbolo, nesse caso uzase o "\1F517";}
+
+qual a diferença de git e github: 
+git cria um repositorio local, vai criar versoes do seu software no seu computador
+ 
+github: e como se fosse um backup do seu repositorio
